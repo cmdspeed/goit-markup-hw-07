@@ -16,32 +16,33 @@
 
 <body>
     <header class="header">
-        <div class="container header-main">
-            <div class="header-div--flex ">
-                <a href=" index.html " class="logo "><span class="web">Web</span>Studio</a>
+        <div class="container header__main">
+            <div class="header__container ">
+                <a href=" index.html " class="header__logo "><span class="web">Web</span>Studio</a>
 
                 <nav class="top-menu ">
-                    <ul>
-                        <li><a href="index.html " class="link  "> Agencja</a></li>
-                        <li>
-                            <a href="portfolio.html " class="link active">Portfolio</a>
+                    <ul class="top-menu__list">
+                        <li class="top-menu__list-item"><a href="index.html " class="link "> Agencja</a></li>
+                        <li class="top-menu__list-item"> <a href="portfolio.html " class="link link__active ">
+                                Portfolio</a>
                         </li>
-                        <li>
+                        <li class="top-menu__list-item">
                             <a href="# " class="link ">Kontakt</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <ul class="address-nav ">
-                <li>
-                    <a href="mailto:info@devstudio.com " class="link contacts "><svg class="icon " width="16 "
-                            height="12 ">
+            <ul class="address-list">
+                <li class="address-list__item">
+                    <a href="mailto:info@devstudio.com " class="link address-list__contacts "><svg class="icon "
+                            width="16 " height="12 ">
                             <use href="images/icons.svg#message "></use>
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="tel:+48111111111 " class="link contacts "><svg class="icon " width="10 " height="16 ">
+                <li class="address-list__item">
+                    <a href="tel:+48111111111 " class="link address-list__contacts "><svg class="icon " width="10 "
+                            height="16 ">
                             <use href="images/icons.svg#phone "></use>
                         </svg>
                         +48 111 111 111</a>
@@ -54,11 +55,11 @@
         <section class="section">
             <div class="container">
                 <div class="container-filters">
-                    <button type="button" class="container-filters-button">Wszyskie</button>
-                    <button type="button" class="container-filters-button">Strony</button>
-                    <button type="button" class="container-filters-button">Aplikacje</button>
-                    <button type="button" class="container-filters-button">Dizajn</button>
-                    <button type="button" class="container-filters-button">Marketing</button>
+                    <button type="button" class="container-filters__button">Wszyskie</button>
+                    <button type="button" class="container-filters__button">Strony</button>
+                    <button type="button" class="container-filters__button">Aplikacje</button>
+                    <button type="button" class="container-filters__button">Dizajn</button>
+                    <button type="button" class="container-filters__button">Marketing</button>
                 </div>
 
                 <ul class="filter">
@@ -66,8 +67,8 @@
                         <figure>
 
                             <figcaption>
-                                <div class="photo">
-                                    <img src="images/portfolio/img.jpg" width="370" height="294" alt="Technocrack" />
+                                <div class="filter__photo-container">
+                                    <img class="filter__photo" src="images/portfolio/img.jpg" width="370" height="294" alt="Technocrack" />
                                     <div class="photo-overlay">
                                         <p>
                                             Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
@@ -88,8 +89,8 @@
 
 
                             <figcaption>
-                                <div class="photo">
-                                    <img src="images/portfolio/img-1.jpg" width="370" height="294" alt="Grafika New Orlean vs Golden Star" />
+                                <div class="filter__photo-container">
+                                    <img class="filter__photo" src="images/portfolio/img-1.jpg" width="370" height="294" alt="Grafika New Orlean vs Golden Star" />
                                     <div class="photo-overlay">
                                         <p>
                                             Grafika New Orlean jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
@@ -104,8 +105,8 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <div class="photo">
-                                    <img src="images/portfolio/img-2.jpg" width="370" height="294" alt="Restauracja Seafood" />
+                                <div class="filter__photo-container">
+                                    <img class="filter__photo" src="images/portfolio/img-2.jpg" width="370" height="294" alt="Restauracja Seafood" />
                                     <div class="photo-overlay">
                                         <p>
                                             Restauracja Seafood jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
@@ -120,8 +121,8 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <div class="photo">
-                                    <img src="images/portfolio/img-3.jpg" width="370" height="294" alt="Projekt Prime" />
+                                <div class="filter__photo-container">
+                                    <img class="filter__photo" src="images/portfolio/img-3.jpg" width="370" height="294" alt="Projekt Prime" />
                                     <div class="photo-overlay">
                                         <p>
                                             Projekt Prime jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
@@ -136,8 +137,8 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <div class="photo">
-                                    <img src="images/portfolio/img-4.jpg" width="370" height="294" alt="Projekt Boxes" />
+                                <div class="filter__photo-container">
+                                    <img class="filter__photo" src="images/portfolio/img-4.jpg" width="370" height="294" alt="Projekt Boxes" />
                                     <div class="photo-overlay">
                                         <p>
                                             Projekt Boxes jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
@@ -152,8 +153,8 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <div class="photo">
-                                    <img src="images/portfolio/img-5.jpg" width="370" height="294" alt="Inspiration has no Borders" />
+                                <div class="filter__photo-container">
+                                    <img class="filter__photo" src="images/portfolio/img-5.jpg" width="370" height="294" alt="Inspiration has no Borders" />
                                     <div class="photo-overlay">
                                         <p>
                                             Inspiration has no Borders jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
@@ -168,10 +169,10 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <div class="photo">
+                                <div class="filter__photo-container">
 
 
-                                    <img src="images/portfolio/img-6.jpg" width="370" height="294" alt="Magazyn Limited Edition" />
+                                    <img class="filter__photo" src="images/portfolio/img-6.jpg" width="370" height="294" alt="Magazyn Limited Edition" />
                                     <div class="photo-overlay">
                                         <p>
                                             Magazyn Limited Edition jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
@@ -186,8 +187,8 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <div class="photo">
-                                    <img src="images/portfolio/img-7.jpg" width="370" height="294" alt="Projekt LAB" />
+                                <div class="filter__photo-container">
+                                    <img class="filter__photo" src="images/portfolio/img-7.jpg" width="370" height="294" alt="Projekt LAB" />
                                     <div class="photo-overlay">
                                         <p>
                                             Projekt LAB jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
@@ -202,8 +203,8 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <div class="photo">
-                                    <img src="images/portfolio/img-8.jpg" width="370" height="294" alt="Growing Business" />
+                                <div class="filter__photo-container">
+                                    <img class="filter__photo" src="images/portfolio/img-8.jpg" width="370" height="294" alt="Growing Business" />
                                     <div class="photo-overlay">
                                         <p>
                                             Growing Business jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
@@ -219,42 +220,42 @@
             </div>
         </section>
     </main>
-    <footer class="footer-bg ">
-        <div class="container footer-section ">
+    <footer class="footer">
+        <div class="container footer__section ">
             <div>
-                <a href=" index.html " class="footer-logo "><span class="web ">Web</span>Studio</a>
+                <a href=" index.html " class="footer__logo "><span class="web ">Web</span>Studio</a>
                 <address>
-                    <ul>
+                    <ul class="footer__list-address">
                         <li>
                             <a href="https://goo.gl/maps/srkfornJ1DspSCza9 " target="_blank "
                                 rel="noopener nofollow noreferrer " class="footer-adres ">m. Warszawa, Aleje
                                 Jerozolimskie 21</a>
                         </li>
 
-                        <li><a href="mailto:info@example.com " class="footer-email ">info@example.com</a></li>
+                        <li><a href="mailto:info@example.com " class="footer__email ">info@example.com</a></li>
                         <li><a href="tel:+48111111111 " class="tel ">+48 111 111 111</a></li>
                     </ul>
                 </address>
             </div>
-            <div class="container-social-icon ">
-                <h4 class="footer--social-header  ">Dołącz do nas</h4>
+            <div class="container-social ">
+                <h4 class="container-social__social-header  ">Dołącz do nas</h4>
                 <div class="social-icon">
-                    <div class="social-icon-single icon-footer ">
+                    <div class="social-icon__container footer__icon ">
                         <svg class="icon " width="20 " height="20 ">
                             <use href="images/icons.svg#instagram "></use>
                         </svg>
                     </div>
-                    <div class="social-icon-single icon-footer ">
+                    <div class="social-icon__container footer__icon ">
                         <svg class="icon " width="20 " height="20 ">
                             <use href="images/icons.svg#twitter "></use>
                         </svg>
                     </div>
-                    <div class="social-icon-single icon-footer ">
+                    <div class="social-icon__container footer__icon ">
                         <svg class="icon " width="20 " height="20 ">
                             <use href="images/icons.svg#facebook "></use>
                         </svg>
                     </div>
-                    <div class="social-icon-single icon-footer ">
+                    <div class="social-icon__container footer__icon ">
                         <svg class="icon " width="20 " height="20 ">
                             <use href="images/icons.svg#likedin "></use>
                         </svg>
@@ -262,12 +263,12 @@
                 </div>
             </div>
             <div>
-                <h4 class="footer--social-header ">Zapisz się do newslettera</h4>
+                <h4 class="container-social__social-header ">Zapisz się do newslettera</h4>
                 <div class="dp-flex">
-                    <input type="email" name="email" placeholder="E-mail" class="footer-input-email">
+                    <input type="email" name="email" placeholder="E-mail" class="footer__input-email">
 
-                    <button class="footer-button-singin">Zapisz się
-                        <div class="footer-send-svg">
+                    <button class="footer__button-singin">Zapisz się
+                        <div class="footer__send">
 
 
                             <svg width="24" height="24">
