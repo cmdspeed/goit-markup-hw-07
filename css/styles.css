@@ -549,7 +549,7 @@ ul {
     opacity: 0;
 }
 
-.modal {
+.modal__container {
     position: relative;
     margin: auto;
     width: 528px;
@@ -559,7 +559,7 @@ ul {
     padding: 0 40px;
 }
 
-.bg-modal {
+.modal {
     display: flex;
     position: fixed;
     justify-content: center;
@@ -571,7 +571,7 @@ ul {
     transition-duration: 500ms;
 }
 
-.button-modal {
+.modal__button {
     background-color: var(--second-color);
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -582,7 +582,7 @@ ul {
     cursor: pointer;
 }
 
-.header-form {
+.order__header {
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
@@ -597,7 +597,7 @@ ul {
     position: relative;
 }
 
-.input-form {
+.order__input {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     height: 40px;
@@ -629,7 +629,7 @@ ul {
     cursor: pointer;
 }
 
-.icon-form {
+.order__icon {
     display: flex;
     position: relative;
     bottom: 40px;
@@ -718,16 +718,16 @@ ul {
     height: 24px;
 }
 
-.input-form:hover,
-.input-form:focus {
+.order__input:hover,
+.order__input:focus {
     border: 1px solid var(--logo-color);
     outline: none;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
 
-.label-container:hover,
-.input-form:focus+.icon-form {
+.order__label-container:hover,
+.order__input:focus+.order__icon {
     fill: var(--logo-color);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
