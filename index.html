@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="css/styles.css" type="text/css" /> -->
+    <link rel="stylesheet" href="css/main.min.css" type="text/css" />
     <title>WebStudio</title>
 </head>
 
@@ -54,17 +55,17 @@
                 <textarea name="comment" id="id-comment" rows="5" placeholder="Wprowadź tekst" class="order__input comment"></textarea>
 
 
-                <label class="label-policy" for="id-label-policy">
+                <label class="policy__label" for="id-label-policy">
 
                     <input type="checkbox" name="policy" id="id-label-policy" value="regulamin" class="policy-box" />
 
                     <svg width="16" height="15" class="box">
                         <use href="images/icons.svg#checked" class="chbox"></use>
-                    </svg> Oświadczam iż akceptuję <a href="#" class="link-policy">Regulamin</a> i <a href="#"
-                        class="link-policy">Politykę Prywatności.</a>
+                    </svg> Oświadczam iż akceptuję <a href="#" class="policy__link">Regulamin</a> i <a href="#"
+                        class="policy__link">Politykę Prywatności.</a>
                 </label>
 
-                <button type="submit" class="form-send--button">Wyślij</button>
+                <button type="submit" class="order__send-button">Wyślij</button>
 
             </form>
         </div>
@@ -111,8 +112,8 @@
         <!-- sekcja powitalna -->
         <section class="section welcome ">
             <div class="container ">
-                <h1 class="section__header-first ">efektywne rozwiązania dla waszego biznesu</h1>
-                <button type="button " class="section__button" data-modal-open>Zamów usługe</button>
+                <h1 class="welcome__header-first ">efektywne rozwiązania dla waszego biznesu</h1>
+                <button type="button " class="welcome__button" data-modal-open>Zamów usługe</button>
 
             </div>
 
@@ -391,7 +392,7 @@
                     <ul class="footer__list-address">
                         <li>
                             <a href="https://goo.gl/maps/srkfornJ1DspSCza9 " target="_blank "
-                                rel="noopener nofollow noreferrer " class="footer-adres ">m. Warszawa, Aleje
+                                rel="noopener nofollow noreferrer " class="footer__adres ">m. Warszawa, Aleje
                                 Jerozolimskie 21</a>
                         </li>
 
