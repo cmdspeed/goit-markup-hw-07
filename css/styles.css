@@ -135,14 +135,14 @@ ul {
     list-style-type: none;
 }
 
-.photo-header-three {
+.filter__header-three {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     padding: 20px 24px 0;
 }
 
-.photo-paragraph {
+.filter__paragraph {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -327,7 +327,7 @@ ul {
     flex-basis: calc((100% - 3 * 40px) / 4);
 }
 
-figure {
+.filter__figure {
     display: flex;
     margin: 0;
     background-color: var(--second-color);
@@ -336,6 +336,9 @@ figure {
 .team-list__figure {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    display: flex;
+    margin: 0;
+    background-color: var(--second-color);
 }
 
 .container-filters {
@@ -366,12 +369,12 @@ figure {
     display: block;
 }
 
-.filter p {
+.filter__paragraph {
     border-bottom: 1px solid;
 }
 
-.filter h3,
-.filter p {
+.filter__header-three,
+.filter__paragraph {
     margin: 0;
     border-right: 1px solid;
     border-left: 1px solid;
@@ -399,7 +402,7 @@ figure {
     transition: transform 250ms ease;
 }
 
-.photo-overlay p {
+.photo-overlay__paragraph {
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     line-height: 1.55;
@@ -418,8 +421,8 @@ figure {
 }
 
 .icon {
-    margin-right: 10px;
-    fill: var(--contacts-color);
+    margin-right: 0;
+    fill: var(--border-partner-logo);
 }
 
 .link:hover svg,
@@ -440,6 +443,11 @@ figure {
     margin: 16px 0 18px 32px;
 }
 
+.container-social__social-icon {
+    display: flex;
+    margin: 16px 0 18px 0;
+}
+
 .footer__container-social .social-icon {
     margin: 20px 0 0;
 }
@@ -452,6 +460,7 @@ figure {
     align-items: center;
     width: fit-content;
     margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social-icon__container:hover {
@@ -462,18 +471,9 @@ figure {
     transition-duration: 250ms;
 }
 
-.social-icon svg {
-    margin-right: 0;
-    fill: var(--border-partner-logo);
-}
-
 .social-icon__container:hover svg {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
-    fill: var(--second-color);
-}
-
-.footer__icon svg {
     fill: var(--second-color);
 }
 
@@ -498,7 +498,7 @@ figure {
 }
 
 .footer__icon {
-    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--second-color);
 }
 
 .container-social__social-header {
