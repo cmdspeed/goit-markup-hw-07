@@ -425,6 +425,10 @@ ul {
     fill: var(--border-partner-logo);
 }
 
+.address-list__icon {
+    margin-right: 10px;
+}
+
 .link:hover svg,
 .link:focus svg {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
